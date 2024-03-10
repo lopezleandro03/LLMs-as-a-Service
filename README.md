@@ -32,7 +32,7 @@ An AI hub has the following dependencies:
 - Azure Storage account to store the AI project's data and artifacts.
 - Azure Application Insights to monitor the AI project's performance.
 
-<img src="content/image.png" alt="Azure AI Studio Architecture" width="800">
+<img src="content/azureaistudio-architecture.png" alt="Azure AI Studio Architecture" width="800">
 
 There are other optional dependencies that we won't require to deploy Model-as-a-Service, such as Container Registry, Azure Cognitive Search, etc.
 
