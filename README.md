@@ -1,6 +1,6 @@
 # Introduction
 
-A project to deploy Azure AI Studio Models-as-a-Service using Terraform. Aimed to Application developers building Intelligent applications and platform engineers who are responsible for democratizing access to Generative AI models and want to tap into the value of using Mistral or Llama2 models the same way they use Azure OpenAI.
+A project to deploy Azure AI Studio Models-as-a-Service using Terraform. Aimed to Application developers building Intelligent applications and platform engineers who are responsible for democratizing access to Generative AI models and want to tap into the value of using Mistral or Llama2 models the same way they use Azure OpenAI, just an API call and no infrastructure to manage ✅.
 
 I have found that companies are blocked when it comes to deploying Model-as-a-Service for a few reasons:
 
