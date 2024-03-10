@@ -1,4 +1,4 @@
-# Introduction
+# LLMs-as-a-Service with Azure MaaS
 
 A project to deploy Azure AI Studio Models-as-a-Service using Terraform. Aimed to Application developers building Intelligent applications and platform engineers who are responsible for democratizing access to Generative AI models and want to tap into the value of using Mistral or Llama2 models the same way they use Azure OpenAI, just an API call and no infrastructure to manage ✅.
 
