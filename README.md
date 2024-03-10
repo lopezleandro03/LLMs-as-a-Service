@@ -5,10 +5,10 @@ A project to deploy Azure AI Studio Models-as-a-Service using Terraform. Aimed t
 I have found that companies are blocked when it comes to deploying Model-as-a-Service for a few reasons:
 
 - Companies that do Everything-as-Code cannot leverage the Azure Portal or Azure AI Studio wizards to deploy Model-as-a-Service, hence, they are blocked.
-- With Models-as-a-Service being new(as of March 2023), there are no Terraform resources available yet. The recommendation in this case is to use the `azapi_provider` which allows to call any Azure API.
+- With Models-as-a-Service being new(as of March 2023), there are no Terraform resources available yet. The recommended approach is to use the [AzAPI Provider](https://registry.terraform.io/providers/Azure/azapi/latest/docs) which allows to call any Azure API.
 - Model-as-a-Service is built on top of Azure Machine Learning, the underlying resource provider names will not match the resource names that an engineer sees in the Azure Portal. This makes it difficult to understand what providers and APIs should be used.
 
-This project aims to solve these problems by providing a Terraform module to deploy Model-as-a-Service using the `azapi_provider`.
+This project aims to solve these problems by providing a Terraform module to deploy Model-as-a-Service using the [AzAPI Provider](https://registry.terraform.io/providers/Azure/azapi/latest/docs).
 
 What model's are we deploying?
 - Mistral-Large 
